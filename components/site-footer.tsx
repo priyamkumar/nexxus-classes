@@ -50,17 +50,17 @@ export default function SiteFooter() {
           <p className="text-sm font-semibold text-slate-900">Contact</p>
           <a
             href="mailTo:nexxusclasses@gmail.com"
-            className="mt-2 text-sm text-slate-600 hover:text-amber-600"
+            className="mt-2 text-sm text-slate-600 hover:text-amber-700"
           >
             Email: nexxusclasses@gmail.com
           </a>
           <p className="mt-2 text-sm text-slate-600">
-            Address: Sco 544, second third floor, Sector 45 c, keshoram complex,
-            galli number 5 Chandigarh.
+            Address: SCO 544, Second-Third Floor, Sector 45 C, Keshoram Complex,
+            Galli Number 5, Chandigarh.
           </p>
           <a
             href="tel:6239416185"
-            className="mt-2 text-sm text-slate-600 hover:text-amber-600"
+            className="mt-2 text-sm text-slate-600 hover:text-amber-700"
           >
             Phone: 6239416185
           </a>

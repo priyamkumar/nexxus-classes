@@ -6,6 +6,7 @@ import "./globals.css"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 import { Suspense } from "react"
+import SocialOverlay from "@/components/socail-overlay"
 
 export const metadata: Metadata = {
   title: "Nexxus Classes",
@@ -25,6 +26,7 @@ export default function RootLayout({
           <SiteHeader />
           <div className="min-h-[60vh]">{children}</div>
           <SiteFooter />
+          <SocialOverlay/>
         </Suspense>
       </body>
     </html>

@@ -1,10 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export interface Course {
-  title: string
-  description: string
-  duration: string
-  price: string
+  title: string;
+  description: string;
 }
 
 export function CourseCard({ course }: { course: Course }) {
@@ -20,11 +18,7 @@ export function CourseCard({ course }: { course: Course }) {
           className="w-full rounded-md border border-border transition-transform duration-200 group-hover:scale-[1.02]"
         />
         <p className="text-sm text-muted-foreground">{course.description}</p>
-        <div className="flex items-center justify-between text-sm">
-          <span className="font-medium text-foreground">{course.duration}</span>
-          <span className="font-semibold text-primary">{course.price}</span>
-        </div>
       </CardContent>
     </Card>
-  )
+  );
 }

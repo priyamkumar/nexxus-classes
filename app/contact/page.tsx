@@ -14,7 +14,9 @@ export default function ContactPage() {
         <div className="mt-6 rounded-lg border border-slate-200 p-6">
           <ContactForm />
         </div>
-        <ContactInformation />
+        <div className="mt-6 rounded-lg border border-slate-200 p-6">
+          <ContactInformation />
+        </div>
       </section>
     </main>
   );
