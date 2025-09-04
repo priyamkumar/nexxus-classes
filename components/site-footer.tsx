@@ -7,12 +7,12 @@ export default function SiteFooter() {
         <div className="flex items-start gap-3">
           <img
             src="/images/logo.jpg"
-            alt="NEXUSS CLASSES logo"
+            alt="NEXXUS CLASSES logo"
             className="mt-1 h-10 w-10 rounded-sm object-contain"
           />
           <div>
             <p className="text-base font-semibold text-slate-900">
-              NEXUSS CLASSES
+              NEXXUS CLASSES
             </p>
             <p className="mt-1 text-sm text-slate-600">
               Home Tuition & Personalized Coaching.
@@ -65,7 +65,7 @@ export default function SiteFooter() {
             Phone: 6239416185
           </a>
           <p className="mt-2 text-xs text-slate-500">
-            © {new Date().getFullYear()} NEXUSS CLASSES. All rights reserved.
+            © {new Date().getFullYear()} NEXXUS CLASSES. All rights reserved.
           </p>
         </div>
       </div>

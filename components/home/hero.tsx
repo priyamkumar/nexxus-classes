@@ -10,7 +10,7 @@ export function Hero() {
             Personalized Coaching
           </span>
           <h1 className="mt-4 text-pretty text-3xl font-bold text-slate-900 md:text-4xl">
-            Excel with expert tutors at NEXUSS CLASSES
+            Excel with expert tutors at NEXXUS CLASSES
           </h1>
           <p className="mt-3 text-pretty text-slate-600 md:text-lg">
             Structured lessons, regular assessments, and one-on-one attention for school and board exams. Learn smarter,

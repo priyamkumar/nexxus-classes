@@ -2,7 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
-import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
@@ -27,7 +26,6 @@ export default function RootLayout({
           <div className="min-h-[60vh]">{children}</div>
           <SiteFooter />
         </Suspense>
-        <Analytics />
       </body>
     </html>
   )

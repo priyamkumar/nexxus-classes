@@ -23,14 +23,14 @@ export default function SiteHeader() {
   return (
     <header className="border-b border-slate-200 bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
-        <Link href="/" className="flex items-center gap-2" aria-label="NEXUSS CLASSES Home">
+        <Link href="/" className="flex items-center gap-2" aria-label="NEXXUS CLASSES Home">
           {/* switch to transparent logo and make it responsive */}
           <img
             src="/images/logo-wb.png"
-            alt="NEXUSS CLASSES logo"
+            alt="NEXXUS CLASSES logo"
             className="h-8 w-auto shrink-0 object-contain md:h-10"
           />
-          <span className="text-lg font-semibold tracking-wide text-slate-900 md:text-xl">NEXUSS CLASSES</span>
+          <span className="text-lg font-semibold tracking-wide text-slate-900 md:text-xl">NEXXUS CLASSES</span>
         </Link>
 
         <nav className="hidden items-center md:flex" aria-label="Primary">
